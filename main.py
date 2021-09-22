@@ -42,6 +42,7 @@ def main():
 
     run_random_forest(x_train_set, x_test_set, y_train_set, y_test_set, 10)
     run_random_forest(x_train_set, x_test_set, y_train_set, y_test_set, 100)
+    # run_random_forest(x_train_set, x_test_set, y_train_set, y_test_set, 1000)
 
 if __name__ == "__main__":
     main()
